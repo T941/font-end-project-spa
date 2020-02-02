@@ -6,6 +6,7 @@ import {DetailHouseComponent} from '../Components/Pages/house/detail-house/detai
 import {CreateHouseComponent} from '../Components/Pages/house/create-house/create-house.component';
 import {ReactiveFormsModule} from '@angular/forms';
 import {EditHouseComponent} from '../Components/Pages/house/edit-house/edit-house.component';
+import {HouseTableComponent} from '../Components/Pages/house/search/components/house/house-table/house-table.component';
 
 const routing: Routes = [
   {
@@ -29,7 +30,8 @@ const routing: Routes = [
   declarations: [
     DetailHouseComponent,
     CreateHouseComponent,
-    EditHouseComponent
+    EditHouseComponent,
+    HouseTableComponent
   ],
   imports: [
     CommonModule,
